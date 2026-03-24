@@ -11,23 +11,23 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
 # ── URL objetivo ──────────────────────────────────────────────────
-TARGET_URL = "https://0ac100f8045f75a580ff441500350002.web-security-academy.net/filter?category=Toys+%26+Games"
+TARGET_URL = "https://............................"
 
 # ── Cookies ───────────────────────────────────────────────────────
 # Cookie donde se inyecta el payload (se concatena al final del valor)
-VULNERABLE_COOKIE_NAME = "TrackingId"
-VULNERABLE_COOKIE_VALUE = "OGsYVHWWjC6UtjpL"
+VULNERABLE_COOKIE_NAME = "cookie-name"
+VULNERABLE_COOKIE_VALUE = "cookie-value"
 
 # Cookies adicionales que necesita la petición (sesión, etc.)
 EXTRA_COOKIES = {
-    "session": "JjPb0rXjVOp8IA5C0kggzbIjl4XZaI1Q",
+    "session": "value",
 }
 
 # ── Objetivo de extracción ────────────────────────────────────────
 TABLE_NAME = "users"                # Tabla donde está el dato
 USERNAME_COLUMN = "username"        # Columna del nombre de usuario
 PASSWORD_COLUMN = "password"        # Columna de la contraseña
-TARGET_USERNAME = "administrator"   # Usuario cuya contraseña queremos
+TARGET_USERNAME = "admin"   # Usuario cuya contraseña queremos
 
 # ── Parámetros de fuerza bruta ────────────────────────────────────
 MAX_PASSWORD_LENGTH = 50    # Longitud máxima a probar al buscar el largo
