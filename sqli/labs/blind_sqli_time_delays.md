@@ -141,6 +141,7 @@ laktye4dcorpyc9wfu2g
 ✔️ Total requests: 147  
 ✔️ Total time: ~4.5 minutes  
 
+[![Lab Solved](images/lab_solved_blind_timedelay.png)](images/lab_solved_blind_timedelay.png)
 ---
 
 ## Key Takeaways
